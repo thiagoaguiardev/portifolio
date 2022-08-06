@@ -3,9 +3,9 @@ let close = document.querySelector('.close');
 for(let i  = 0; i <smallImg.length; i++){
     smallImg[i].addEventListener('click', function(){
         if (i == 0){
-            window.open('portifolio/html/img1.html', '_parent');
+            window.open('../html/img1.html', '_parent');
         }else{
-            window.open('portifolio/html/img2.html', '_parent');
+            window.open('../html/img2.html', '_parent');
         };
     });
 };
