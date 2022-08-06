@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile_style.css">
+    <title>Portfólio | Thiago Aguiar</title>
+</head> 
+<body>
+    <header id="inicio">
+        <div class="opacity_header">
+            <div class="menu">
+                <div id="mobile_menu" onclick="musterMenu()">
+                    <img src="../img/mobile_menu.png" alt="">
+                </div>
+                <nav>
+                    <img class="logo" src="../img/logo.png" alt="">
+                    <ul>
+                        <li id="inicio_menu">
+                            <a href="#inicio">Início</a>
+                        </li>
+                        <li id="sobre_menu">
+                            <a href="#sobre">Sobre mim</a>
+                        </li>
+                        <li id="projetos_menu">
+                            <a href="#projetos" id="menu_projeto">Projetos</a>
+                        </li>
+                        <li id="habilidades_menu">
+                            <a href="#habilidades">Habilidades</a>  
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="presentation">
+                <div class="presentation_text">
+                    <p>Olá, eu sou</p>
+                    <h1>Thiago Aguiar</h1>
+                    <h2>Desenvolvedor font-end</h2>
+                    <div class="buttons_presentation">
+                        <button> <a href="https://www.linkedin.com/in/thiago-aguiar-475770230/" target="_blank" rel="external"> <span>C</span> Linkedin </a></button>
+                    </div>
+                    <div class="buttons_presentation">
+                        <button> <a href="https://github.com/thiagoaguiardev" target="_blank" rel="external"><span>)</span> Github</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="about_background">
+            <div class="about_opacity">
+                <div class="about" id="sobre">
+                    <img class="about_img" src="../img/sobre.png" alt="">   
+                    <div class="about_text">
+                        <h2>Sobre mim</h2>
+                        <p>Meu nome é <strong>Thiago Aguiar</strong> e sou um apaixonado por tecnologia. Meu primeiro contato com programação foi em 2020 durante a pandemia, depois de sair do ensino médio. Apesar de ter gostado da área, só comecei a dar o devido foco em 2021, quando comecei a aprender sobre o desenvolvimento web.</p>
+                        <p>Hoje já entendo tecnologias voltadas para o Front-end. Também gosto de “brincar” com design no figma, criando interfaces para projetos pessoais e de amigos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projetos">
+            <h2>Projetos</h2>
+            <div class="row">
+                <div class="card_img">
+                    <img class="small_img" src="../img/Odontocenter.png" alt="">
+                </div>
+                <div class="card_img">
+                    <img class="small_img" src="../img/em breve.png" alt="">
+                </div>
+                <div class="card_img">
+                    <img class="small_img" src="../img/em breve.png" alt="">
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="card_img">
+                    <img class="small_img" src="../img/em breve.png" alt="">
+                </div>
+                <div class="card_img">
+                    <img class="small_img" src="../img/em breve.png" alt="">
+                </div>
+                <div class="card_img">
+                    <img class="small_img" src="../img/em breve.png" alt="">
+                </div>
+            </div>
+            <div class="button_muster">
+                <button id="muster">ver mais</button>
+            </div>
+        </div>
+        <div class="skills" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="technologies">
+                <div class="technologies_img">
+                    <div class="row_tec">
+                        <div class="div_img">
+                            <img src="../img/html.png" id="html">
+                        </div>
+                        <div class="div_img">
+                            <img src="../img/css.png" id="css">
+                        </div>
+                    </div>
+                    <div class="row_tec">
+                        <div class="div_img">
+                            <img src="../img/javascript.png" id="js">
+                        </div>
+                        <div class="div_img">
+                            <img src="../img/wordpress.png" id="word">
+                        </div>
+                    </div>
+                </div>
+                <div class="technologies_text">
+                    <h3>Tecnologias</h3>
+                    <p>
+                        Passe o mouse por cima ou click em alguma habilidade para ler a descrição. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="contact">
+        <p>thiagoaguiar.dev@gmail.com</p>
+        <div class="contact_button">
+            <button><a href="https://www.linkedin.com/in/thiago-aguiar-475770230/" target="_blank" rel="external">C</a></button>
+            <button><a href="https://github.com/thiagoaguiardev" target="_blank" rel="external">)</a></button>
+        </div>
+    </div>
+    <footer>
+        <p>Thiago Aguiar ©2022| Desenvolvedor font-end</p>
+    </footer>
+    <script src="../js/galeria.js" defer></script> 
+    <script src="../js/mostrar.js" defer></script>
+    <script src="../js/habilidades.js" defer></script>
+    <script src="../js/mobile_menu.js"></script>
+</body>
+</html>
