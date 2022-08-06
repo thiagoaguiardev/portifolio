@@ -70,6 +70,9 @@
         font-family: var(--font-titulo);
         text-align: center;
     }
+    .modal_img{
+        width: 60vw;
+    }    
     .technologies{
         display: grid;
         justify-items: center;
@@ -176,6 +179,13 @@
         margin: 10px 3%;
         border-radius: 10px;
         background-color: #fdfdfd;
+    }
+    .modal_img{
+        width: 80vw;
+    }
+    .close{
+        font-size: 30px;
+        padding: 0 10px;
     }
     .skills{
         padding: 50px 2%;

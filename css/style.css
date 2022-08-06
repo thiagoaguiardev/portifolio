@@ -219,11 +219,12 @@ img.small_img{
 #row2{
     display: none;
 }
+.galery{
+    background-color: #313131;
+}
 .modal{
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.700);
-    padding: 50px 0;
-    position: absolute;
+    background-color: #313131;
+    padding: 40px 0;
 }
 .modal_content{
     display: flex;
@@ -234,12 +235,6 @@ img.small_img{
     width: 50vw;
 }
 .close{
-    color: #fdfdfd;
-    font-size: 50px;
-    padding: 0 10px;
-    cursor: pointer;
-}
-#close2{
     color: #fdfdfd;
     font-size: 50px;
     padding: 0 10px;
