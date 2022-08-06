@@ -228,17 +228,18 @@ img.small_img{
 }
 .modal_content{
     display: grid;
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 .modal_img{
     width: 50vw;
 }
 .close{
     display: flex;
+    justify-content: center;
+    width: 50px;
     color: #fdfdfd;
     font-size: 50px;
-    padding: 0 10px;
     cursor: pointer;
 }
 .button_muster{

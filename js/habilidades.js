@@ -8,7 +8,7 @@ html.addEventListener('mouseenter', function(){
     `<div>
         <h3>HTML</h3>
         <p>
-            É uma liguagem de marcação ultilizada na consturção de páginas na web.
+            É uma liguagem de marcação ultilizada na construção de páginas na web.
         </p>
     </div>`;
 });
@@ -62,7 +62,7 @@ word.addEventListener('mouseenter', function(){
     `<div>
         <h3>WordPress</h3>
         <p>
-             É um sistema usado para administrar sites, blogs, lojas virtuais, portais de notícia, áreas de membros e outros tipos de página.
+             É um sistema usado para administrar sites, blogs, lojas virtuais, portais de notícias, áreas de membros e outros tipos de páginas.
         </p>
     </div>`;
 });
