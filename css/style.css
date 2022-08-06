@@ -227,7 +227,7 @@ img.small_img{
     padding: 40px 0;
 }
 .modal_content{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-content: center;
 }
@@ -235,6 +235,7 @@ img.small_img{
     width: 50vw;
 }
 .close{
+    display: flex;
     color: #fdfdfd;
     font-size: 50px;
     padding: 0 10px;
