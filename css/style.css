@@ -234,13 +234,16 @@ img.small_img{
 .modal_img{
     width: 50vw;
 }
-.close{
-    display: flex;
-    justify-content: center;
+.close{ 
     width: 50px;
     color: #fdfdfd;
+    background-color: #313131;
     font-size: 50px;
-    cursor: pointer;
+    border: none;
+}
+.close a{
+    text-decoration: none;
+    color: #Fdfdfd;
 }
 .button_muster{
     display: inline-block;

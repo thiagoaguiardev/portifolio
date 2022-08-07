@@ -9,6 +9,3 @@ for(let i  = 0; i <smallImg.length; i++){
         };
     });
 };
-close.addEventListener('click', function(){
-    window.open('../index.html#projetos', '_parent');
-});
