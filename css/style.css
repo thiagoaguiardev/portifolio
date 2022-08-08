@@ -16,6 +16,7 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 body{
     font-family: var(--font-padrão);
@@ -147,7 +148,7 @@ header nav ul a:hover{
 .about{
     max-width: 1200px;
     margin: auto;
-    padding: 50px 5px;
+    padding: 30px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -164,7 +165,7 @@ img.about_img{
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(-15px);
+        transform: translateY(10px);
     }
     100%{
         transform: translateY(0px);
@@ -189,7 +190,7 @@ img.about_img{
     display: grid;
     justify-content: center;
     justify-items: center;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 .projects h2{
     text-align: center;
