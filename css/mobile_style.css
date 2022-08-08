@@ -116,6 +116,9 @@
     }
 }
 @media (max-width:580px) {
+    html{
+        scroll-padding-top: 0;
+    }
     .presentation{
         justify-items: center;
         text-align: center;
