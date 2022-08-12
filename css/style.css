@@ -290,7 +290,7 @@ img.small_img{
     margin: 0;
 }
 .row_tec{
-    display: flex;
+    display: block;
 }
 .div_img{
     display: flex;

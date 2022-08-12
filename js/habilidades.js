@@ -2,6 +2,8 @@ let html = document.getElementById('html');
 let css = document.getElementById('css');
 let js = document.getElementById('js');
 let word = document.getElementById('word');
+let git = document.getElementById('git');
+let github = document.getElementById('github');
 let tecText = document.querySelector('.technologies_text');
 html.addEventListener('mouseenter', function(){
     tecText.innerHTML = 
@@ -67,6 +69,42 @@ word.addEventListener('mouseenter', function(){
     </div>`;
 });
 word.addEventListener('mouseout', function(){
+    tecText.innerHTML = 
+    `<div>
+        <h3>Tecnologias</h3>
+        <p>
+            Passe o mouse por cima ou click em alguma habilidade para ler a descrição.
+        </p>
+    </div>`;
+});
+git.addEventListener('mouseenter', function(){
+    tecText.innerHTML = 
+    `<div>
+        <h3>Git</h3>
+        <p>
+            Git é um sistema de controle de versão de arquivos, usado principalmente no desenvolvimento de software. 
+        </p>
+    </div>`;
+});
+git.addEventListener('mouseout', function(){
+    tecText.innerHTML = 
+    `<div>
+        <h3>Tecnologias</h3>
+        <p>
+            Passe o mouse por cima ou click em alguma habilidade para ler a descrição.
+        </p>
+    </div>`;
+});
+github.addEventListener('mouseenter', function(){
+    tecText.innerHTML = 
+    `<div>
+        <h3>Github</h3>
+        <p>
+             É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o git. 
+        </p>
+    </div>`;
+});
+github.addEventListener('mouseout', function(){
     tecText.innerHTML = 
     `<div>
         <h3>Tecnologias</h3>
